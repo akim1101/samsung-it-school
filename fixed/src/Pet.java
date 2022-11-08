@@ -1,18 +1,18 @@
 public class Pet {
-    public String pet_name;
-    public String owners_name;
-    public String pet_type;
+    private String petName;
+    private String ownersName;
+    private String petType;
 
-    public Pet(String pet_name, String owners_name, String pet_type) {
-        this.pet_name = pet_name;
-        this.owners_name = owners_name;
-        this.pet_type = pet_type;
+    public Pet(String petName, String ownersName, String petType) {
+        this.petName = petName;
+        this.ownersName = ownersName;
+        this.petType = petType;
     }
 
-    public void ShowInfo() {
-        System.out.println("Кличка питомца: " + this.pet_name);
-        System.out.println("Имя владельца: " + this.owners_name);
-        System.out.println("Тип животного: " + this.pet_type);
+    public void showInfo() {
+        System.out.println("Кличка питомца: " + this.petName);
+        System.out.println("Имя владельца: " + this.ownersName);
+        System.out.println("Тип животного: " + this.petName);
     }
 }
 

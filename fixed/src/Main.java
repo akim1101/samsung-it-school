@@ -6,10 +6,10 @@ public class Main {
         Pet KeshaTheParrot = new Pet("Kesha", "Akim", "Budgie");
         Pet ChubasikTheCat = new Pet("Barsik", "Maksim", "Cat");
         Pet AlexThePuma = new Pet("Alex", "Larisa", "Puma");
-        KeshaTheParrot.ShowInfo();
+        KeshaTheParrot.showInfo();
         System.out.println();
-        ChubasikTheCat.ShowInfo();
+        ChubasikTheCat.showInfo();
         System.out.println();
-        AlexThePuma.ShowInfo();
+        AlexThePuma.showInfo();
     }
 }
